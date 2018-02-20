@@ -7,6 +7,7 @@ exercise.salary = null;
 exercise.load = function(salary, boston){
     exercise.salaries = boston.data;
     exercise.salary = salary;
+    // salary is the upper limit that the user keys inside the box
 };
 
 // get salaries larger than given salary
@@ -21,6 +22,7 @@ exercise.findBiggerSalaries = function(){
     //     Example: salaries larger than 300K is 8
     // ---------------------------------------------------
 
+    if (boston.data.data)
 };
 
 // filter function
