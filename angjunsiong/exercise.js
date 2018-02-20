@@ -10,8 +10,6 @@ exercise.load = function(salary, boston){
     // salary is the upper limit that the user keys inside the box
 };
 
-console.log(exercise.salaries)
-
 // get salaries larger than given salary
 exercise.findBiggerSalaries = function(){
 
@@ -25,8 +23,9 @@ exercise.findBiggerSalaries = function(){
     // ---------------------------------------------------
 
     var hello = exercise.largerSalary();
+    console.log(hello)
     var SalaryList = [];
-
+    console.log(SalaryList)
     var dataLength = exercise.salaries.length;
     
     for (i=0; i < dataLength; i++) {    
@@ -61,7 +60,6 @@ exercise.largerSalary = function largerSalary(){
         else{
         BooleanIndicator.push("False");
             }
-        console.log(BooleanIndicator);
     }
     return BooleanIndicator;
 }
